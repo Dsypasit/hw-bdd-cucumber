@@ -14,7 +14,8 @@ module NavigationHelpers
     case page_name
 
     when /^the movies page$/ then '/movies'
-      
+    when /^the (RottenPotatoes )?home\s?page$/ then '/movies'
+
       # Here is an example that uses value from the Regexp:
       #
       #   when /^the details page for movie "(.*)"$/ do |movie_name|
@@ -22,8 +23,13 @@ module NavigationHelpers
       # end
 
     else
-      raise "Can't find mapping from \"#{page_name}\" to a path.\n" +
-        "Now, go and add a mapping in #{__FILE__}"
+      begin
+        page_name =~ /^the (.*) page$/
+        path_components = Regexp.last_match(1).split(/\s+/)
+      rescue NoMemoryError, ArgumentError
+        raise "Can't find mapping from \"#{page_name}\" to a path.\n" +
+              "Now, go and add a mapping in #{__FILE__}"
+      end
     end
   end
 end

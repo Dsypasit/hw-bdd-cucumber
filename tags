@@ -1,0 +1,80 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/dsy/coding/softdev/hw-bdd-cucumber/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+#flash_error	rottenpotatoes/public/stylesheets/general.css	/^#flash_error {$/;"	i
+#flash_notice	rottenpotatoes/public/stylesheets/general.css	/^#flash_notice {$/;"	i
+.errorExplanation	rottenpotatoes/public/stylesheets/general.css	/^.errorExplanation {$/;"	c
+.errorExplanation h2	rottenpotatoes/public/stylesheets/general.css	/^.errorExplanation h2 {$/;"	s
+.errorExplanation ul	rottenpotatoes/public/stylesheets/general.css	/^.errorExplanation ul {$/;"	s
+.even	rottenpotatoes/public/stylesheets/general.css	/^.even {$/;"	c
+.fieldWithErrors input	rottenpotatoes/public/stylesheets/general.css	/^.fieldWithErrors input, .fieldWithErrors textarea, .fieldWithErrors select {$/;"	s
+.fieldWithErrors select	rottenpotatoes/public/stylesheets/general.css	/^.fieldWithErrors input, .fieldWithErrors textarea, .fieldWithErrors select {$/;"	s
+.fieldWithErrors textarea	rottenpotatoes/public/stylesheets/general.css	/^.fieldWithErrors input, .fieldWithErrors textarea, .fieldWithErrors select {$/;"	s
+.odd	rottenpotatoes/public/stylesheets/general.css	/^.odd {$/;"	c
+APP_PATH	rottenpotatoes/script/rails	/^APP_PATH = File.expand_path('..\/..\/config\/application',  __FILE__)$/;"	C
+Application	rottenpotatoes/config/application.rb	/^  class Application < Rails::Application$/;"	c	module:Rottenpotatoes
+ApplicationController	rottenpotatoes/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	rottenpotatoes/app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+BDD and Cucumber	README.md	/^BDD and Cucumber$/;"	c
+CreateMovies	rottenpotatoes/db/migrate/20111119180638_create_movies.rb	/^class CreateMovies < ActiveRecord::Migration$/;"	c
+HINTS	README.md	/^### HINTS$/;"	S	chapter:Part 4: Happy paths for sorting movies by title and by release date
+HtmlSelectorsHelpers	rottenpotatoes/features/support/selectors.rb	/^module HtmlSelectorsHelpers$/;"	m
+Learning Goals	README.md	/^# Learning Goals$/;"	c
+Movie	rottenpotatoes/app/models/movie.rb	/^class Movie < ActiveRecord::Base$/;"	c
+MoviesController	rottenpotatoes/app/controllers/movies_controller.rb	/^class MoviesController < ApplicationController$/;"	c
+MoviesHelper	rottenpotatoes/app/helpers/movies_helper.rb	/^module MoviesHelper$/;"	m
+NavigationHelpers	rottenpotatoes/features/support/paths.rb	/^module NavigationHelpers$/;"	m
+Overview	README.md	/^# Overview$/;"	c
+Part 0: Set up	README.md	/^# Part 0: Set up$/;"	c
+Part 1: warm up	README.md	/^# Part 1: warm up$/;"	c
+Part 2: Create a declarative scenario step for adding movies	README.md	/^# Part 2: Create a declarative scenario step for adding movies$/;"	c
+Part 3: Happy paths for filtering movies	README.md	/^# Part 3: Happy paths for filtering movies$/;"	c
+Part 4: Happy paths for sorting movies by title and by release date	README.md	/^# Part 4: Happy paths for sorting movies by title and by release date$/;"	c
+Part 5: Add a new feature to RottenPotatoes	README.md	/^## Part 5: Add a new feature to RottenPotatoes$/;"	s	chapter:Part 4: Happy paths for sorting movies by title and by release date
+Rottenpotatoes	rottenpotatoes/config/application.rb	/^module Rottenpotatoes$/;"	m
+The change you wanted was rejected.	rottenpotatoes/public/422.html	/^    <h1>The change you wanted was rejected.<\/h1>$/;"	h
+The page you were looking for doesn't exist.	rottenpotatoes/public/404.html	/^    <h1>The page you were looking for doesn't exist.<\/h1>$/;"	h
+We're sorry, but something went wrong.	rottenpotatoes/public/500.html	/^    <h1>We're sorry, but something went wrong.<\/h1>$/;"	h
+WithinHelpers	rottenpotatoes/features/step_definitions/web_steps.rb	/^module WithinHelpers$/;"	m
+a	rottenpotatoes/public/stylesheets/general.css	/^a {$/;"	s
+all_ratings	rottenpotatoes/app/models/movie.rb	/^  def self.all_ratings$/;"	S	class:Movie
+body	rottenpotatoes/public/stylesheets/general.css	/^html, body {$/;"	s
+create	rottenpotatoes/app/controllers/movies_controller.rb	/^  def create$/;"	f	class:MoviesController
+destroy	rottenpotatoes/app/controllers/movies_controller.rb	/^  def destroy$/;"	f	class:MoviesController
+div#body	rottenpotatoes/public/stylesheets/general.css	/^div#body {$/;"	i
+div.fieldWithErrors	rottenpotatoes/public/stylesheets/general.css	/^div.fieldWithErrors {$/;"	c
+down	rottenpotatoes/db/migrate/20111119180638_create_movies.rb	/^  def down$/;"	f	class:CreateMovies
+edit	rottenpotatoes/app/controllers/movies_controller.rb	/^  def edit$/;"	f	class:MoviesController
+em	rottenpotatoes/public/stylesheets/general.css	/^em {$/;"	s
+form #submit	rottenpotatoes/public/stylesheets/general.css	/^form #submit {$/;"	i
+form label	rottenpotatoes/public/stylesheets/general.css	/^form label {$/;"	s
+form li	rottenpotatoes/public/stylesheets/general.css	/^form li {$/;"	s
+form ul	rottenpotatoes/public/stylesheets/general.css	/^form ul {$/;"	s
+h1	rottenpotatoes/public/stylesheets/general.css	/^h1 {$/;"	s
+h1 a	rottenpotatoes/public/stylesheets/general.css	/^h1 a {$/;"	s
+h2	rottenpotatoes/public/stylesheets/general.css	/^h2 {$/;"	s
+html	rottenpotatoes/public/stylesheets/general.css	/^html, body {$/;"	s
+index	rottenpotatoes/app/controllers/movies_controller.rb	/^  def index$/;"	f	class:MoviesController
+new	rottenpotatoes/app/controllers/movies_controller.rb	/^  def new$/;"	f	class:MoviesController
+oddness	rottenpotatoes/app/helpers/movies_helper.rb	/^  def oddness(count)$/;"	f	module:MoviesHelper
+path_to	rottenpotatoes/features/support/paths.rb	/^  def path_to(page_name)$/;"	f	module:NavigationHelpers
+selector_for	rottenpotatoes/features/support/selectors.rb	/^  def selector_for(locator)$/;"	f	module:HtmlSelectorsHelpers
+show	rottenpotatoes/app/controllers/movies_controller.rb	/^  def show$/;"	f	class:MoviesController
+table#movies	rottenpotatoes/public/stylesheets/general.css	/^table#movies {$/;"	i
+table#movies td	rottenpotatoes/public/stylesheets/general.css	/^table#movies th, table#movies td {$/;"	s
+table#movies th	rottenpotatoes/public/stylesheets/general.css	/^table#movies th {$/;"	s
+table#movies th	rottenpotatoes/public/stylesheets/general.css	/^table#movies th, table#movies td {$/;"	s
+test	rottenpotatoes/config/database.yml	/^test: &test$/;"	a
+ul#page_nav	rottenpotatoes/public/stylesheets/general.css	/^ul#page_nav {$/;"	i
+ul#page_nav li	rottenpotatoes/public/stylesheets/general.css	/^ul#page_nav li {$/;"	s
+up	rottenpotatoes/db/migrate/20111119180638_create_movies.rb	/^  def up$/;"	f	class:CreateMovies
+update	rottenpotatoes/app/controllers/movies_controller.rb	/^  def update$/;"	f	class:MoviesController
+with_scope	rottenpotatoes/features/step_definitions/web_steps.rb	/^  def with_scope(locator)$/;"	f	module:WithinHelpers
